@@ -1,0 +1,131 @@
+<head>
+    <title>WeWork Mobile Search 📍</title>
+    <link rel="icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="nav_bar">
+            <h3><a class="nav right" href="info">Info</a></h3>
+            <h3><a class="nav right" href="index.html">Home</a></h3>
+        </div>
+
+        <div class="container">
+            <h1>Mobile Search</h1>
+            <div class="label">Designing the mobile location search experience for WeWork</div>
+        </div>
+
+        <div class="flex_wrapper">
+            <div class="col">
+                <div class="label">role</div>
+                <h3>User Experience</h3>
+            </div>
+            <div class="col">
+                <div class="label">company</div>
+                <h3>WeWork</h3>
+            </div>
+            <div class="col">
+                <div class="label">Duration</div>
+                <h3>3 months</h3>
+            </div>
+        </div>
+
+        <div class="gallery-lg hero-image">
+            <img class="gallery-image-2" src="/images/hero%20map.png" alt="">
+            <div class="label right">WeWork location search on mobile</div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="row">
+                <h2>The Company</h2>
+                <p>At it's core, WeWork is a real-estate company dedicated to providing move-in ready office space + desks to freelancers, small businesses, + large enterprises. The company’s open office layouts + minimalist interior design appeals largely to younger, mobile-oriented users.</p>
+            </div>
+
+            <div class="row">
+                <h2>The Challenge</h2>
+                <p>Our marketplace didn’t allow these mobile users to see office locations on a map. Without relative locational context, they browsed through office space listings in our marketplace, but rarely converted.</p>
+            </div>
+
+            <div class="row">
+                <h2>The Focus</h2>
+                <p>With these challenges in mind, my team narrowed in on two questions that would guide our approach to finding a solution:</p>
+                <p>- Who are our mobile map users?</p>
+                <p>- What information does a successful mobile map view contain? </p>
+            </div>
+
+            <div class="row">
+                <h2>The Discovery Process</h2>
+                <p>I asked our UX researchers to kick off the process by conducting user interviews to understand the different kinds of mobile map users, and what information each kind of user needed to move forward in the purchasing flow. While that was underway, my project manager and I analyzed similar products to understand the existing mobile map patterns users are familiar with.</p>
+                <p>First, we realized that our map could either be a supplementary or alternate browsing experience - users could get additional information, or everything they need to make a decision.
+                    <p>Secondly, user research led us to understand our users as price conscious/neutral + location neutral/conscious</p>
+            </div>
+
+            <div class="row">
+                <h2>The Design Process</h2>
+                <p>With these findings in mind, I kicked off the wire-framing process by adding a map/list view toggle to our existing marketplace page: </p>
+
+                <div class="gallery-lg support-image">
+                    <img class="gallery_image" src="/images/toggle.png" alt="">
+                    <div class="label right">map + list view toggle</div>
+                </div>
+
+                <p>Then I sketched out different versions of the “map pin + map card” pattern employed in more robust mobile map experiences</p>
+
+                <p>The first version employs tapping as its main navigational gesture, with prospective users tapping different pins, and scanning the map card pop-ups for snackable information. While there is more room to explore the map, getting any information beyond location, requires an initial action on the user’s part.</p>
+
+                <div class="gallery-lg support-image">
+                    <img class="gallery_image" src="/images/tap.png" alt="">
+                    <div class="label right">version one: pop-up map cards</div>
+                </div>
+
+                <p>The second version involves swiping a carousel of map cards pinned to the bottom of the viewport - each card corresponds to a pin. This version has the benefit of surfacing additional information from the outset, but can add to an already crowded interface.</p>
+
+                <div class="gallery-lg support-image">
+                    <img class="gallery_image" src="/images/scroll.png" alt="">
+                    <div class="label right">version two: scrollable map cards</div>
+                </div>
+
+                <p>I considered a third version - a variant of the first - where pins were replaced by pricing points. While this seemed like a solid middle ground initially, I quickly eliminated this option, as our pricing structure was too complex to be captured by one price point - the potential to mislead users was too great. Additionally, while we want to surface pricing info on the map, treating it too centrally had the potential to put users off.</p>
+
+                <div class="gallery-lg support-image">
+                    <img class="gallery_image" src="/images/price.png" alt="">
+                    <div class="label right">version three: price point map pins</div>
+                </div>
+
+                <p>I prototyped these solutions in principle, and worked with another UX designer + researcher to conduct user testing. It was overwhelmingly suggested that while the map card carousel was a fun solution, swiping through office locations didn’t feel intentional enough. They wanted to zoom in on areas of interest and select the pins themselves. Users also felt that building perk information lacked context and distracted them from more actionable information like price + community rating.</p>
+            </div>
+
+            <div class="row">
+                <h2>Our Solution</h2>
+                <p>With these findings in mind, I settled on an open map, with two finger zoom in/out + zoom toggles, map pins, + pop-up map cards that highlighted building location + pricing options. The extra screen real estate, allowed us to comfortably experiment with filtering further down the line.</p>
+
+                <div class="gallery-lg support-image">
+                    <img class="gallery_image" src="/images/solution.png" alt="">
+                    <div class="label right">First version of our solution</div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <h2>My Takeways</h2>
+                <p>While I believe this solution was solid as the minimum viable product, in hindsight there were some questions I considered after it’s implementation. The first was whether I should have designed a version with map pin cluttering to allow users to avoid the potential analysis paralysis caused by having too many pins on the map (we were growing!).</p>
+                <p>The second was whether, the findings from user testing that edged me toward my solution were as prescriptive as I thought. Maybe there was a way to make swiping through map cards feel less random. In any case this project taught me a ton about how information delivery matters just as much as information digestibility. What we thought was primarily a question of what users wanted to know, was just as much one of how they wanted to learn it.</p>
+                <p>The experience has evolved since I began my work, but I count myself lucky to have helped lay the foundation for this important part of WeWork's experience. </p>
+            </div>
+
+        </div>
+
+        <div class="container_list">
+            <h3><a class="nav left" href="soundcloud.html">Next Case Study →</a></h3>
+        </div>
+
+    </div>
+
+
+</body>
