@@ -175,7 +175,8 @@ a {
 }
 
 
-.inactive h2, .inactive .label{ 
+.inactive h2,
+.inactive .label {
     color: #c2c2c2 !important;
 }
 
@@ -291,7 +292,7 @@ a.nav:hover:before {
 }
 
 
-a p { 
+a p {
     color: var(--eggshell);
 }
 
@@ -407,10 +408,12 @@ a:hover .image_popup {
 
     h2 {
         font-size: 1.8rem;
+        letter-spacing: .04rem;
     }
 
     h3 {
         font-size: 1.2rem;
+        letter-spacing: .04rem;
     }
 
     p {
@@ -451,6 +454,22 @@ a:hover .image_popup {
         margin-left: 0;
     }
 
+    h2 a {
+        -webkit-text-stroke-width: .75px;
+        -moz-text-stroke-width: .75px;
+        -o-text-stroke-width: .75px;
+    }
+    
+    a h2 {
+        -webkit-text-stroke-width: .75px;
+        -moz-text-stroke-width: .75px;
+        -o-text-stroke-width: .75px;
+    }
+    
+    .container_list_item h2 { 
+        margin-bottom: .5rem;
+    }
+    
 
     /* component styling */
 
