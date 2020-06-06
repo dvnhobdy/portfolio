@@ -396,7 +396,8 @@ a:hover .image_popup {
 
 
     .wrapper {
-        padding: 10% 5%;
+        padding: 10% 0%;
+        width: 85%;
     }
 
 
